@@ -1,0 +1,1 @@
+模拟spring的ioc和di功能
