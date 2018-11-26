@@ -1,0 +1,7 @@
+<beans>
+    <bean id="userDao" class="com.lbb.spring.dao.impl.UserDaoImpl"></bean>
+
+    <bean id="userService" class="com.lbb.spring.service.UserService">
+        <property ref="userDao" name="userDao"></property>
+    </bean>
+</beans>
